@@ -359,3 +359,49 @@ Regularity index (RI) = mean (nearest-neighbour dist) / sd (nearest-neighbour di
 ## Cat $\beta$ retinal ganglion cells
 
 `r im1("w81s_check4.png",400)`
+
+
+---
+## Development of RGCs (Wong and Ghosh 2002)
+
+
+`r im1("rachel_dendrites1a.svg")`
+
+Possible mechanisms underlying development:
+
+* Competition among neighbours (Perry)
+
+* Cell death (Chalupa)
+
+* Some other combination? 
+
+---
+## Model of Delta Notch signalling
+
+
+* High levels of Delta (ligand) in one cell induce higher Notch
+  (receptor) activation in its neighbours, decreasing Delta
+  expression in these cells (Collier et al. 1996). 
+    
+
+
+
+.pull-left[
+$$\dot{n_i} = f(\langle d_i \rangle) - n_i$$
+$$f(x) = {x^2}/(k_{1} + x^2)$$
+$$\dot{d_i} = g(n_i) - d_i$$
+$$g(x) = {1}/(1+ k_{2} x^2)$$
+]
+
+.pull-right[
+`r im1("dn_drawing2.svg",200)`
+`r im1("dnlabel_eg_ds.svg",200)`
+`r im1("dnlabel_eg_ns.svg",200)`
+]
+
+
+
+
+
+
+
