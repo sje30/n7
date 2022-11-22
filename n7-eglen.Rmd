@@ -399,6 +399,96 @@ $$g(x) = {1}/(1+ k_{2} x^2)$$
 `r im1("dnlabel_eg_ns.svg",200)`
 ]
 
+---
+## Typical outcome from competition
+
+
+<br>
+
+.pull-left[
+`r im1("grey_dn1.svg",350)`
+]
+
+.pull-right[
+`r im1("colour_dn1.svg",350)`
+]
+
+
+---
+## Cell death
+  
+
+  * 20% cell death in alpha RGCs postnatally; mosaic changes
+    from random to regular during that period.
+    
+  * Cell death removes cells that are too close to each other. 
+    
+`r im1("jeyarasasingam1998_fig5.png",width=600)`
+`r pbr("(Jeyarasasingam et al., 1998)")`
+   
+  * Approach: build model, deleting cells that are too close to
+    each other.  Test effect of deleting up to 40% of cells. 
+
+
+---
+## Evaluation of hypotheses
+
+<br>
+
+`r im1("rgc_fate_death3.svg")`
+
+
+
+---
+## Functional independence
+  
+  * Maybe there is no functional dependence between the on- and
+    off-centre arrays. 
+
+  * What happens if we simulate the two arrays independently, just
+    preventing somal overlap? 
+
+  * Approach: extend exclusion zone model to bivariate case.
+
+  * Justifiable on the grounds that mechanistic models support the
+    phenomenological dmin model.
+
+
+---
+## Compare model and data (1)
+<br>
+
+`r im1("w81s_sim_map.svg",width=700)`
+
+
+
+---
+## Compare model and data (2)
+<br>
+
+`r im1("w81s_4poster1.svg",650)`
+
+---
+## How general is principle of functional independence?
+<br>
+
+`r im1("bivariate_hor_bp.svg",width=350)`
+`r pbr("Scale bar in each case is 50 um")`
+
+
+---
+## Conclusions
+
+* "All models are wrong, but some are useful" (Box)
+
+* Hodgkin-Huxley: allows us to be precise *mechanistically*, but demanding.
+
+* Izhikevich: allows us to capture *phenomenology* and is efficient.
+
+* Retinal mosaics: models have shown the sufficiency of local
+  exclusion zones among cells of same type.
+
+* Interactions between cells type are predicted to be rare.
 
 
 
