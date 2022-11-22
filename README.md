@@ -10,3 +10,18 @@ Material from Stephen Eglen for N7 lectures.
 
 [Paperpile](https://paperpile.com/shared/D5PXww) contains links to key
 references mentioned in lectures.
+
+
+## Notes
+
+compile using
+
+    require(servr)
+    rmdv1()
+
+
+    pdftocairo -svg file.pdf
+	
+
+### Printing slides to PDF
+https://www.garrickadenbuie.com/blog/print-xaringan-chromote/	
