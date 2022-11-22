@@ -349,3 +349,13 @@ Regularity index (RI) = mean (nearest-neighbour dist) / sd (nearest-neighbour di
 
 `r im1("eglen2006_fig3b.svg",400)`
 
+
+---
+## Cat $\beta$ retinal ganglion cells
+
+`r im1("origa.png",400)`
+
+---
+## Cat $\beta$ retinal ganglion cells
+
+`r im1("w81s_check4.png",400)`
