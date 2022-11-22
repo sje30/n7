@@ -3,7 +3,7 @@ n7-eglen.html: n7-eglen.Rmd
 
 
 n7-eglen.pdf: n7-eglen.html
-	Rscript -e "pagedown::chrome_print('$^')"
+	Rscript -e "pagedown::chrome_print('$^',timeout=60)"
 
 # n7-eglen.pdf: n7-eglen.qmd
 # 	quarto render $^

@@ -147,7 +147,7 @@ For given voltage, e.g. K channel activation, gated by $n$:
 i.e.
 	$$ \frac{dn}{dt} = \alpha(1-n) - \beta n $$
 
-The terms $\alpha$ and $\beta$ themselves depend on membrane voltage
+The terms $\alpha$ and $\beta$ themselves depend on membrane voltage.
 
 
 Similar expressions can be created for sodium activiation (m) and
@@ -241,6 +241,26 @@ amplitude at higher frequencies.
 We can now build model circuits using these neurons.  e.g. Tomkova et
 al 2015: <https://paperpile.com/app/p/5529195b-9246-0d04-8449-09b3cc7289db>
 
+Connect 100 thousand neurons of 17 types in 6 cortical layers with 21
+million synapses.  Allow synapses to adapt using STDP.
+
+Test the effect of different auditory stimulation paradigms on
+emergence of tonotopy.
+
+
+---
+## Tomkova et al (2015) Fig 5 
+
+<br>
+
+`r im1("tomkova2015_fig5.png", 700)`
+
+---
+## Tomkova et al (2015) Fig 7 
+
+<br>
+
+`r im1("tomkova2015_fig7.png", 700)`
 
 ---
 ## Dynamic clamp
@@ -472,7 +492,7 @@ $$g(x) = {1}/(1+ k_{2} x^2)$$
 ## How general is principle of functional independence?
 <br>
 
-`r im1("bivariate_hor_bp.svg",width=350)`
+`r im1("bivariate_hor_bp.svg",width=450)`
 `r pbr("Scale bar in each case is 50 um")`
 
 
@@ -489,9 +509,3 @@ $$g(x) = {1}/(1+ k_{2} x^2)$$
   exclusion zones among cells of same type.
 
 * Interactions between cells type are predicted to be rare.
-
-
-
-
-
-
