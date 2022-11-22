@@ -84,7 +84,7 @@ sje30@cam.ac.uk
 ```
 
 
-HTML Slides: <https://github.com/sje30/n7> (CC BY 4.0 license) hi
+HTML Slides: <https://sje30.github.io/n7> (CC BY 4.0 license)
 <br>
 
 
@@ -240,9 +240,10 @@ amplitude at higher frequencies.
 `r im1("izhik.png", 800)`
 
 ---
-## Application of the Izhikevich model
+## Application of Izhikevich model neurons 
 
-2015 model.
+We can now build model circuits using these neurons.  e.g. Tomkova et
+al 2015: <https://paperpile.com/app/p/5529195b-9246-0d04-8449-09b3cc7289db>
 
 
 ---
@@ -272,3 +273,16 @@ amplitude at higher frequencies.
 
 ---
 # Part three: Anatomical models
+
+---
+## Retinal mosaics: $\alpha$ retinal ganglion cells
+
+`r im1("wassle1981c_fig1a.png", 750)`
+
+
+$1.7 \times 1.2$ mm staining of cat retina  (Wässle et al., 1981).
+
+---
+## Minimal distance (``dmin'') serial model
+
+`r im1("dmin_movie_f-6.svg", 750)`
