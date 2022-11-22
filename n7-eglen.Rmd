@@ -335,3 +335,17 @@ Regularity index (RI) = mean (nearest-neighbour dist) / sd (nearest-neighbour di
   <!-- \\ -->
   <!-- \text{Under CSR}\quad L(t) &= t -->
   <!-- \end{align*} -->
+
+
+---
+## Minimal distance model: results
+
+
+
+`r im1("eglen2006_fig3a.svg",400)`
+
+<br>
+
+
+`r im1("eglen2006_fig3b.svg",400)`
+
