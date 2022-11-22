@@ -8,11 +8,8 @@ output:
       highlightLines: true
       countIncrementalSlides: false
 ---
- 
 
-	  
 <style>
- 
 /* .remark-slide-content { */
 /*   padding-top: 20px; */
 /*   padding-left: 20px; */
@@ -64,7 +61,7 @@ xaringanExtra::use_scribble(pen_color="#008b8b")
 ## N7: Computational approaches
 
 ```{css echo=FALSE}
-.highlight-last-item > ul > li, 
+.highlight-last-item > ul > li,
 .highlight-last-item > ol > li {
   opacity: 0.5;
 }
@@ -96,9 +93,9 @@ HTML Slides: <https://sje30.github.io/n7> (CC BY 4.0 license)
 ## Why model?
 
   * Everyone models.
-  
+
   * Model system (zebrafish / mouse / organoids).
-  
+
   * I just happen to use the language of maths/computers rather than
     verbal arguments.
 
@@ -122,7 +119,7 @@ HTML Slides: <https://sje30.github.io/n7> (CC BY 4.0 license)
   system.  (cf. epidemiological modelling since 2020).
 
 * Experiments test for *necessity*; models test for *sufficiency*.
-  
+
 * Make predictions  about novel situations.
 
 * Made postdictions to explain past data sets (Abbott 2008).
@@ -147,7 +144,7 @@ For given voltage, e.g. K channel activation, gated by $n$:
 
 (n) Gates switch from open state to closed state with rate $\beta$.
 
-i.e. 
+i.e.
 	$$ \frac{dn}{dt} = \alpha(1-n) - \beta n $$
 
 The terms $\alpha$ and $\beta$ themselves depend on membrane voltage
@@ -167,7 +164,7 @@ $$c_m \frac{dV}{dt} = -g_L (E_L - V) - g_{Na} m^3 h (E_{Na} - V) - g_K n^4(E_K -
 where the $g$ terms are the maximal conductances for each channel, and
 the $E$ terms are the resting potentials for each channel.
 
-This leads to four coupled differential equations.  
+This leads to four coupled differential equations.
 
 Solving these requires methods of *numerical integration*.
 
@@ -175,14 +172,13 @@ Solving these requires methods of *numerical integration*.
 ## Demonstration
 
 
-Live demo of all-or-nothing behaviour: 
+Live demo of all-or-nothing behaviour:
 
 <https://demonstrations.wolfram.com/HodgkinHuxleyActionPotentialModel/>
 
 As you vary external stimulus you can see emergence of an action
 potential.
 
- 
 ---
 ## Dynamics of channels and membrane voltage
 
@@ -208,12 +204,12 @@ um) than normal (2 um) for rapid signal propagation [escape behaviour].
 ## Simplifications to H-H framework
 
   Two observations (Rinzel, 1985):
-  
+
   `r im1("ch5fig10.png", 500)`
   `r pbr("Dayan and Abbott (2002) fig 5.10.")`
-  
+
 1. $m$ reaches steady-state almost instantaneously.
-  
+
 2. $h$ and $1-n$ have similar voltage dependence, so model just one of
    them.
 
@@ -240,7 +236,7 @@ amplitude at higher frequencies.
 `r im1("izhik.png", 800)`
 
 ---
-## Application of Izhikevich model neurons 
+## Application of Izhikevich model neurons
 
 We can now build model circuits using these neurons.  e.g. Tomkova et
 al 2015: <https://paperpile.com/app/p/5529195b-9246-0d04-8449-09b3cc7289db>
@@ -259,11 +255,11 @@ al 2015: <https://paperpile.com/app/p/5529195b-9246-0d04-8449-09b3cc7289db>
 
 
 ---
-## Dynamic clamp application 
+## Dynamic clamp application
 
 
   Can two mutually inhibitory neurons fire in synchrony?
-  
+
   Use dynamic clamp to *virtually* connect two neurons.
 
 `r pbr("Marder and Abbott 1995, Fig 2")`
@@ -283,6 +279,36 @@ al 2015: <https://paperpile.com/app/p/5529195b-9246-0d04-8449-09b3cc7289db>
 $1.7 \times 1.2$ mm staining of cat retina  (Wässle et al., 1981).
 
 ---
-## Minimal distance (``dmin'') serial model
+## Step 0: exclusion zone model
 
-`r im1("dmin_movie_f-6.svg", 750)`
+`r im1("dmin_movie_f-0.svg")`
+
+---
+## Step 1
+
+`r im1("dmin_movie_f-1.svg")`
+
+---
+## Step 2
+
+`r im1("dmin_movie_f-2.svg")`
+
+---
+## Step 3
+
+`r im1("dmin_movie_f-3.svg")`
+
+---
+## Step 4
+
+`r im1("dmin_movie_f-4.svg")`
+
+---
+## Step 5
+
+`r im1("dmin_movie_f-5.svg")`
+
+---
+## Step 6
+
+`r im1("dmin_movie_f-6.svg")`
