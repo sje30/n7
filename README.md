@@ -1,4 +1,6 @@
-# N7 Lecture material
+# N7 Lecture material (2022)
+
+Material from Stephen Eglen for N7 lectures.
 
 ## Slides
 
@@ -6,3 +8,5 @@
 
 ## Paperpile
 
+[Paperpile](https://paperpile.com/shared/D5PXww) contains links to key
+references mentioned in lectures.
