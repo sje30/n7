@@ -312,3 +312,26 @@ $1.7 \times 1.2$ mm staining of cat retina  (Wässle et al., 1981).
 ## Step 6
 
 `r im1("dmin_movie_f-6.svg")`
+
+
+---
+## Evaluating regularity
+
+`r im1("measure_reg_K-2.svg")`
+
+Regularity index (RI) = mean (nearest-neighbour dist) / sd (nearest-neighbour dist)
+
+  <!-- \begin{align*} -->
+  <!-- \text{regularity index (RI)} \quad  -->
+  <!-- &=  -->
+  <!-- \frac{\text{mean NND}}{\text{s.d. NND} } -->
+  <!-- \qquad \text{RI} > \sqrt{\pi/(4-\pi)} -->
+  <!-- \Rightarrow \text{non-random} -->
+  <!-- \\ -->
+  <!-- \lambda K(t) &= -->
+  <!-- \sum_{i=1}^{n} \sum_{j \neq i} I( || \vx_i - \vx_j  || \leq t)  -->
+  <!-- \qquad -->
+  <!-- L(t) = \sqrt{K(t)/ \pi} -->
+  <!-- \\ -->
+  <!-- \text{Under CSR}\quad L(t) &= t -->
+  <!-- \end{align*} -->
