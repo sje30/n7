@@ -4,7 +4,9 @@ Material from Stephen Eglen for N7 lectures.
 
 ## Slides
 
-[n7-eglen.html](n7-eglen.html) 
+[n7-eglen.html](n7-eglen.html) HTML format slides.
+
+[n7-eglen-4up.pdf](n7-eglen-4up.pdf) PDF version, 4-up suitable for printing.
 
 ## Paperpile
 
