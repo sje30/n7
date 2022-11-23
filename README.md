@@ -2,6 +2,9 @@
 
 Material from Stephen Eglen for N7 lectures.
 
+Please note that the lecture for Friday 25th November has been
+cancelled due to national strike action.
+
 ## Slides
 
 [n7-eglen.html](n7-eglen.html) HTML format slides.
